@@ -1,0 +1,29 @@
+
+.admin-page h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 90px;
+}
+.admin-page {
+    margin: 90px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 20px;
+}
+
+.admin-page button {
+    margin-top: 90px;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: lightgray;
+    transition: .3s;
+    font-weight: 100px;
+}
+
+.admin-page button:hover {
+    background: blueviolet;
+}

@@ -1,0 +1,140 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    box-shadow: 0px 5px 10px 0px #aaa;
+    opacity: 0.85;
+    background: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+    height: 50px; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.logo{
+    display: flex;
+    align-content: center;
+    
+    /* display: inline-block; */
+    margin-left: 20px;
+}
+
+.logo img{
+    display: inline-block;
+}
+
+.logo h1{
+    margin-top: 11px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 100%; 
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.user-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    cursor: pointer;
+}
+
+.sub-menu-wrap {
+    display: none; 
+    position: absolute;
+    right: 10px; 
+    top: 100%; 
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.sub-menu-wrap.open-menu {
+    display: block;
+}
+
+.sub-menu {
+    padding: 10px;
+    width: 200px;
+}
+
+.sub-menu .user-info {
+    display: flex;
+    align-items: center;
+}
+
+.sub-menu .user-info .user-pic {
+    margin-right: 10px;
+}
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sub-menu-link img {
+    margin-right: 10px;
+}
+
+.sub-menu-link p {
+    margin: 0;
+}
+
+.sub-menu-link:hover {
+    background-color: #ddd;
+}
+
+.logout {
+    color: red; 
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #333;
+    font-size: 16px;
+}
+
+.logo img {
+    height: 50px; /* Adjust the height as necessary */
+    width: auto;
+    margin-right: 10px; /* Provides some space between the logo and nav links */
+    border-radius: 50%;
+}
+
+
+

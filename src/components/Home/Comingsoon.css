@@ -1,0 +1,19 @@
+.comingsoon {
+    margin-top: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+.comingsoon h1 {
+    font-size: 2rem;
+    color: #333; /* Dark grey text color */
+  }
+  
+.comingsoon p {
+    font-size: 1.2rem;
+    color: #666; /* Light grey text color */
+  }

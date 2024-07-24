@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .login {
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login .card {
+    width: 50%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 500px;
+    overflow: hidden;
+  }
+  
+  .login .card .left {
+    flex: 1;
+    background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)), url("../images/login.jpg") center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+  }
+  
+  .login .card .left h1 {
+    font-size: 70px;
+    line-height: 60px;
+    color: white;
+  }
+  
+  .login .card .left span {
+    font-size: 14px;
+    padding: 0.5px;
+  }
+  
+  .login .card .left button {
+    width: 50%;
+    padding: 12px;
+    border: none;
+    background-color: white;
+    color: rebeccapurple;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .login .card .right {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+  }
+  
+  .login .card .right h1 {
+    color: #060606;
+  }
+  
+  .login .card .right p {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .login .card .right form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .login .card .right form input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px;
+  }
+  
+  .login .card .right form button {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .login .card .right form button:hover {
+    background: rgb(39, 11, 96, 0.5);
+  }
+
+.btn-google {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 15;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    min-width: 220px;
+}
+
+.btn-google:hover {
+    background-color:rgba(39, 11, 96, 0.5);
+}
+
+.btn-google img {
+    margin-right: 10px;
+    height: 24px;
+    width: auto;
+}
+
+.btn-google:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #cdeaff;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .login .card {
+      flex-direction: column;
+      height: auto;
+  }
+  
+  .login .card .left,
+  .login .card .right {
+      width: 100%;
+      padding: 5%;
+  }
+}

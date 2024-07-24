@@ -1,0 +1,84 @@
+
+.club-page {
+    background: url("../../../public/club_background.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    overflow: hidden;
+    margin: 90px;
+    padding: 35px;
+    box-shadow: 0px 5px 10px 0px blueviolet;
+    opacity: 0.85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.cards {
+    width: 100%; 
+}
+
+
+ .cards h1 {
+margin: 10px;
+}
+.cards h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.club-page h2{
+    color: blueviolet;
+}
+.item {
+    padding: 20px;
+    width: 350px;
+    min-height: 300px; 
+    margin: 20px;
+    background-color: lightgray;
+    box-shadow: 0px 5px 10px 0px blueviolet;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card-slider {
+    display: flex;
+    justify-content: center; 
+    overflow: hidden;
+}
+
+
+.prev-btn, 
+.next-btn {
+    background-color: white;
+    color: blueviolet;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 0 10px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btn-primary {
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    background: blueviolet;
+    transition: .3s;
+}
+
+.btn-primary:hover {
+    background: rgb(39, 11, 96, 0.5);
+}

@@ -1,0 +1,55 @@
+ .course-details section{
+    padding:2rem;
+    margin: 0 auto;
+    max-width: 100%;
+ }
+ 
+ .course-details .heading{
+    font-size: 2.5rem;
+    color:black;
+    margin-top: 90px;
+    border-bottom: var(--border);
+    text-transform: capitalize;
+    border-bottom: .001rem solid rgba(0,0,0,.2);
+}
+
+.playlist-videos .box-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   gap: 1.5rem; 
+   padding: 1rem; 
+}
+
+.playlist-videos .box-container .box {
+   background: lightgray;
+   border-radius: .5rem;
+   padding: 1rem; /* Reduced padding for a more concise card layout */
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds shadow for better card definition */
+   position: relative;
+   transition: transform 0.3s ease-in-out; /* Smooth transformation on hover */
+   margin-top: 20px;
+}
+
+.playlist-videos .box-container .box:hover {
+   transform: translateY(-5px); /* Lifts the card up slightly on hover */
+}
+
+.playlist-videos .box-container .box img {
+   width: 100%;
+   height: 15rem; /* Adjusted for a smaller card */
+   object-fit: cover;
+   border-radius: .5rem;
+}
+
+.playlist-videos .box-container .box h3 {
+   margin-top: 1rem; /* Reduced margin-top for tighter card spacing */
+   font-size: 1.6rem; /* Smaller font size for card title */
+   text-align: center;
+}
+
+/* Adjust hover effects or other elements as necessary based on your design */
+
+
+.playlist-videos .box-container .box:hover h3{
+   color: #8e44ad;
+}

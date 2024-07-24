@@ -1,0 +1,12 @@
+.syllabus{
+    margin: 70px;
+    padding: 5px;
+}
+
+.syllabus h2{
+    text-align: center;
+}
+
+.syllabus input{
+    padding: 20px;
+}

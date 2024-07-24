@@ -1,0 +1,326 @@
+
+.showclub section{
+    padding: 90px 100px;
+  }
+  
+  
+  .showclub .main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    background: url("/public/club_background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .showclub .main .club-img {
+    
+    justify-content: center; 
+    align-items: center; 
+    height: 450px; 
+    width: 500px; 
+    overflow: hidden; 
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px blueviolet;
+    padding: 5px;
+  }
+  
+  .showclub .main .club-img .image-container {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+  }
+  
+  .showclub .main .club-img .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  
+  .showclub .main .content{
+    max-width: 800px;
+  }
+
+  .showclub .main .content p{
+    margin-right: 50px;
+  }
+  
+  .showclub .main .content h2{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  
+  .showclub .main .content h2 span{
+    font-size: 2.8em;
+    font-weight: 600;
+  }
+  
+  .showclub .animated-text{
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+  }
+  
+  .showclub .animated-text h3{
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 1px;
+  }
+  
+  .showclub .animated-text h3:nth-child(1){
+    animation: text-move 10s infinite;
+  }
+  
+  .showclub .btn-primary{
+    color: #ffffff;
+    background: blueviolet;
+    font-size: 1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    margin-top: 30px;
+    transition: 0.5s ease;
+    border-radius: 5px;
+  }
+  
+  .showclub .btn:hover{
+    background: rgb(112, 88, 135);
+  }
+  
+  .showclub .media-icons{
+    margin-top: 50px;
+  }
+  
+  .showclub .media-icons a{
+    color: #fff;
+    font-size: 25px;
+    margin-right: 30px;
+  }
+  
+  .showclub header{
+    z-index: 999;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+  }
+  
+  .showclub header.sticky{
+    background: #3a6cf4;
+    padding: 10px 200px;
+  }
+  
+  .showclub header .brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  
+  
+
+  
+  .showclub .title{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .showclub .section-title{
+    position: relative;
+    color: #000000;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 60px;
+    border-bottom: #000000 solid;
+  }
+  
+
+
+  .showclub .about1 .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(233, 225, 240);
+    box-shadow: 0px 5px 10px 0px blueviolet;
+  }
+
+
+  .showclub .about1 .content .col-left{
+    position: relative;
+    width: 45%;
+  }
+  
+  .showclub .about1 .content .col-right{
+    position: relative;
+    width: 50%;
+  }
+  
+  .showclub .about1 .content .col-left .img-card{
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    background: url(../images/club1.jpg) no-repeat;
+  }
+  
+  .showclub .about1 .content .col-left .img-card img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .showclub .about1 .content .col-right .content-title{
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .showclub .about1 .content .col-right .paragraph-text{
+    font-size: 1em;
+  }
+  
+  
+  .showclub .about2 .content {
+    position: relative;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    flex-direction: row-reverse;
+    background-color: rgb(233, 225, 240);
+    box-shadow: 0px 5px 10px 0px blueviolet;
+   
+    
+ }
+ 
+ .showclub .about2 .content .col-left,
+ .showclub .about2 .content .col-right {
+   flex: 1; 
+ }
+ 
+ .showclub .about2 .content .col-left .img-card {
+   width: 100%;
+   height: 450px; 
+   overflow: hidden; 
+   background: url(../images/club-about.jpg) no-repeat;
+ }
+ 
+ .showclub .about2 .content .col-left .img-card img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+ }
+ 
+ .showclub .about2 .content .col-right {
+   padding: 20px; 
+ }
+ 
+ .showclub .about2 .content .col-right .content-title {
+   font-size: 1.5em;
+   font-weight: 800;
+   margin-bottom: 20px;
+ }
+ 
+ .showclub .about2 .content .col-right .paragraph-text {
+   font-size: 1em;
+ }
+ 
+ .showclub .events .content {
+  position: relative;
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap; 
+  padding: 15px;
+  background: rgb(233, 225, 240);
+  box-shadow: 0px 5px 10px 0px blueviolet; 
+  justify-content: center;
+}
+
+.showclub .content .event {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: auto; 
+  min-height: 20em; 
+  width: calc(33.33% - 30px); 
+  margin: 0 15px 20px 15px; 
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px 0 blueviolet;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.showclub .events .event h3 {
+  text-align: center; 
+  margin-bottom: 10px;
+}
+
+.showclub .events .event p {
+  flex-grow: 1; 
+  overflow: hidden; 
+}
+
+.showclub .events .event button {
+  padding: 8px 16px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.showclub .content .event:nth-child(3n) {
+  margin-right: 0;
+}
+
+.showclub .end{
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .showclub .content .event {
+    width: calc(50% - 20px);
+  }
+
+  .showclub .content .event:nth-child(2n) {
+    margin-right: 0;
+  }
+}

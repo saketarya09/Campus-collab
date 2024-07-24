@@ -1,0 +1,61 @@
+
+.c2a1 {
+
+color: #000000;
+  font-weight: 300;
+background-position: center top;
+  height: 300px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 1.3em;
+  box-shadow: 0px 5px 10px 0px blueviolet;
+}
+
+.c2a1 h1, .c2a1 h2, .c2a1 h3, .c2a1 h4, .c2a1 h5, .c2a1 h6 {
+color: #000000;
+font-size: 3em;
+}
+
+
+.c2a1 .font-weight-medium {
+font-weight: 500;
+}
+.showevents {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.image-and-details {
+  display: flex;
+  align-items: flex-start;
+}
+
+.clubprofileimg {
+  width: 350px;
+  height: 350px;
+  border-radius: 20%;
+  margin: 10px;
+  margin-left: 250px;
+  box-shadow: 0px 10px 20px 0px blueviolet;
+}
+
+.eventdetails {
+  margin: 90px;
+  font-size: 1.4em;
+}
+
+.description {
+  margin: 20px;
+  font-size: 1.1em;
+}
+
+.showevents span {
+  padding: 5px;
+  justify-content: center;
+}
+
+.itbtn {
+  margin-left: 45%;
+  margin-top: 4%;
+}
